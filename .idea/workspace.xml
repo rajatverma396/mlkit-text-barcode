@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9af17192-f2b0-4856-983e-4a148d20f4d4" name="Default Changelist" comment="" />
+    <list default="true" id="9af17192-f2b0-4856-983e-4a148d20f4d4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,9 +47,27 @@
       <option name="presentableId" value="Default" />
       <updated>1626852676300</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1626856819409</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1626856819409</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="303" y="25" key="CommitChangelistDialog2" timestamp="1626856818872">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state x="303" y="25" key="CommitChangelistDialog2/0.25.1440.811@0.25.1440.811" timestamp="1626856818872" />
     <state width="1398" height="199" key="GridCell.Tab.0.bottom" timestamp="1626856185360">
       <screen x="0" y="25" width="1440" height="811" />
     </state>
@@ -84,5 +104,9 @@
       <screen x="0" y="25" width="1440" height="811" />
     </state>
     <state x="229" y="25" key="SettingsEditor/0.25.1440.811@0.25.1440.811" timestamp="1626856800649" />
+    <state x="320" y="167" key="Vcs.Push.Dialog.v2" timestamp="1626856963595">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.25.1440.811@0.25.1440.811" timestamp="1626856963595" />
   </component>
 </project>
