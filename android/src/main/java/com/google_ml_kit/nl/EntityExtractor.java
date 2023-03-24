@@ -4,18 +4,6 @@ import androidx.annotation.NonNull;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.mlkit.nl.entityextraction.DateTimeEntity;
-import com.google.mlkit.nl.entityextraction.Entity;
-import com.google.mlkit.nl.entityextraction.EntityAnnotation;
-import com.google.mlkit.nl.entityextraction.EntityExtraction;
-import com.google.mlkit.nl.entityextraction.EntityExtractionParams;
-import com.google.mlkit.nl.entityextraction.EntityExtractorOptions;
-import com.google.mlkit.nl.entityextraction.FlightNumberEntity;
-import com.google.mlkit.nl.entityextraction.IbanEntity;
-import com.google.mlkit.nl.entityextraction.IsbnEntity;
-import com.google.mlkit.nl.entityextraction.MoneyEntity;
-import com.google.mlkit.nl.entityextraction.PaymentCardEntity;
-import com.google.mlkit.nl.entityextraction.TrackingNumberEntity;
 import com.google_ml_kit.ApiDetectorInterface;
 
 import java.util.ArrayList;
@@ -35,8 +23,17 @@ public class EntityExtractor implements ApiDetectorInterface {
     private static final String START = "nlp#startEntityExtractor";
     private static final String CLOSE = "nlp#closeEntityExtractor";
 
-    private com.google.mlkit.nl.entityextraction.EntityExtractor entityExtractor;
+    @Override
+    public List<String> getMethodsKeys() {
+        return null;
+    }
 
+    @Override
+    public void onMethodCall(@NonNull  MethodCall call, @NonNull  MethodChannel.Result result) {
+
+    }
+
+  /*  
     @Override
     public List<String> getMethodsKeys() {
         return new ArrayList<>(
@@ -167,6 +164,6 @@ public class EntityExtractor implements ApiDetectorInterface {
 
     public void closeDetector() {
         entityExtractor.close();
-    }
+    }*/
 }
 

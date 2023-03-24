@@ -4,8 +4,7 @@ import androidx.annotation.NonNull;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.mlkit.common.model.DownloadConditions;
-import com.google.mlkit.nl.entityextraction.EntityExtractionRemoteModel;
+import com.google.mlkit.common.model.DownloadConditions; 
 import com.google_ml_kit.ApiDetectorInterface;
 import com.google_ml_kit.GenericModelManager;
 
@@ -32,13 +31,13 @@ public class EntityModelManager implements ApiDetectorInterface {
     public void onMethodCall(@NonNull MethodCall call, @NonNull MethodChannel.Result result) {
         String method = call.method;
         if (method.equals(START)) {
-            startEntityModelManager(call, result);
+           // startEntityModelManager(call, result);
         } else {
             result.notImplemented();
         }
     }
 
-    private void startEntityModelManager(MethodCall call, final MethodChannel.Result result) {
+  /*  private void startEntityModelManager(MethodCall call, final MethodChannel.Result result) {
         String task = (String) call.argument("task");
         switch (task) {
             case "download":
@@ -94,5 +93,5 @@ public class EntityModelManager implements ApiDetectorInterface {
     private void deleteModel(final MethodChannel.Result result, String languageCode) {
         EntityExtractionRemoteModel model = new EntityExtractionRemoteModel.Builder(languageCode).build();
         genericModelManager.deleteModel(model, result);
-    }
+    }*/
 }

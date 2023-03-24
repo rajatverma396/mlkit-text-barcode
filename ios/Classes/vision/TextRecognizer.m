@@ -18,6 +18,7 @@
     if ([call.method isEqualToString:startTextDetector]) {
         [self handleDetection:call result:result];
     } else if ([call.method isEqualToString:closeTextDetector]) {
+        result(nil);
     } else {
         result(FlutterMethodNotImplemented);
     }
